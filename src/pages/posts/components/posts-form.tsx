@@ -42,7 +42,7 @@ function PostsForm() {
                               name="content"/>
                     <button
                         disabled={isLoading}
-                        className="self-end bg-gradient-to-tr from-btn-first to-btn-second text-center rounded-lg w-1/3  py-2 text-sm text-white"
+                        className="self-end bg-gradient-to-r from-10% from-btn-first to-btn-second text-center rounded-lg w-1/3  py-2 text-sm text-white"
                         type="submit">
                         Add post
                     </button>

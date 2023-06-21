@@ -24,7 +24,7 @@ function PostsList() {
     if (error) return <div>Something went wrong...</div>
 
     return (
-        <div className=" container mx-auto ">
+        <div className=" container  max-w-screen-md ">
             <h2 className="my-8 font-bold text-primary">People Ideas</h2>
             <div className="pl-4 border-l-2 border-dashed">
                 <ul>
@@ -35,7 +35,7 @@ function PostsList() {
                                 <img className="h-12" src={avatar} alt="Avatar"/>
                                 <h3 className="text-primary capitalize font-semibold "> {post.title}</h3>
                             </div>
-                            <p className="text-secondary text-sm ">{post.content}</p>
+                            <p className="text-secondary text-sm line-clamp-2 ">{post.content}</p>
                         </li>
                     })}
                 </ul>
